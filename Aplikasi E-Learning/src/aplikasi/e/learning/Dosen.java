@@ -21,6 +21,9 @@ private int i=0;
     public Kelas getKelas(int index){
         return kelas[index];
     }
+    public void setNama(String nama){
+        this.nama=nama;
+    }
     
     public void createKelas(String namaKelas){
         Kelas K = new Kelas(namaKelas);
